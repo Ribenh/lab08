@@ -25,7 +25,7 @@ public class DeathNoteImpl implements DeathNote{
         if (name == null) {
             throw new NullPointerException("name can not be blank");
         }
-        namesAndCauses.put(name, "Hearth attack");
+        namesAndCauses.put(name, "Heart attack");
     }
 
     @Override
